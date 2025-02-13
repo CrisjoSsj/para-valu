@@ -1,0 +1,55 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #fae2bf;
+  background-image: url("fondo2.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Contenedor principal centrado */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Mantiene el tamaño del GIF */
+.gif-container img {
+  width: 400px;  /* Tamaño original de la cabeza */
+  height: 400px;
+}
+
+/* Texto centrado entre el GIF y el botón */
+.text {
+  font-size: 25px;
+  font-family: "Indie Flower";
+  text-align: center;
+  max-width: 400px; /* Limita el ancho para que no sea muy largo */
+  margin-bottom: 20px; /* Espacio con el botón */
+}
+
+/* Botón de descarga */
+.download-section button {
+  background-color: #fae2bf; 
+  color: #000; 
+  border: none;
+  padding: 12px 22px;
+  font-size: 18px;
+  font-family: 'Indie Flower', cursive;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.download-section button:hover {
+  background-color: #e5c8a0;
+  transform: scale(1.05);
+}
